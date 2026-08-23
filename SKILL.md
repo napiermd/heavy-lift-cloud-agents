@@ -21,7 +21,7 @@ Doing that grind in Grok Bot, or handing it to another Grok Bot, is a failed run
 
 ## Stay here vs launch
 
-Stay here is one cheap read or one short draft. Not any connector work you can do yourself. Each stay-here item is one call.
+Stay here is one cheap read, one short draft, or one close they already asked for. Not any connector work you can do yourself. Each stay-here item is one call.
 
 Stay here:
 
@@ -29,7 +29,7 @@ Stay here:
 - One calendar check
 - One short draft in the user's voice
 - A send they already approved, exact text
-- Inspect a finished cloud-agent PR
+- Inspect a finished cloud-agent PR, then one merge or send they already asked for
 - A decision only the user can make
 
 Launch:
@@ -51,11 +51,15 @@ These are not stay-here exceptions. Launch anyway:
 
 "I have the connector, so I will do the whole library here" is a failed run.
 
-Put the artifact in a connected repo. If the write surface is unreachable, report that blocker once. Do not do the 20-step novel in chat.
+Put the artifact in a connected repo. If the write surface is unreachable, report that blocker once. That is not planning complete. Do not do the 20-step novel in chat.
 
 ## Launch
 
 The cloud agent needs a GitHub repo already connected to Cursor. No connected repo means no launch. Tell the user. Do not do the grind in Grok Bot instead.
+
+Launch is for execution. The Definition of Done is the live artifact on the real surface: a merged skill, a loaded library, a shipped file. A plan, a handoff note, or an unmerged draft is not done.
+
+Stopping at a plan, a pack, or a draft PR when they asked for the live result is a failed run.
 
 1. Write the mission: Outcome, Inputs, Output, Definition of Done, Constraints, Approval Gates.
 2. Product work goes to the live product repo. Everything else goes to one artifacts repo you already chose. Never a random product repo.
@@ -70,13 +74,21 @@ A launch prompt that works names the outcome, the exact output path, the Definit
 
 If launch fails, is blocked, or cannot finish the last click, tell the user once. Do not grind the job in Grok Bot. An incomplete launch is not permission to do the work here.
 
+If the cloud agent could not write the destination, report that blocker once. It is not planning complete.
+
 ## After it lands
 
 Inspect the PR from the network (`gh pr view`, `gh pr diff`). Do not clone the repo onto the Grok Bot computer.
 
+Then close the loop they already asked for. If they said patch, fix, merge, or make it live: merge or apply. Do not leave a draft PR and call it done.
+
+"Here is a pack, load it later" is a failed run when they asked for the thing to exist.
+
+That close is one cheap merge or one approved send, not a reason to grind the job in chat.
+
 Report: Objective, Artifact, Evidence, Status, Blockers, Next Action.
 
-Evidence is the PR, the file, or a screenshot from that run. Reject a failed handoff. Do not silently repair it on the weekly meter.
+Evidence is the live artifact on the real surface. A plan, a pack, or an unmerged draft is not evidence of done. Reject a failed handoff. Do not silently repair it on the weekly meter.
 
 ## Do not
 
@@ -87,3 +99,4 @@ Evidence is the PR, the file, or a screenshot from that run. Reject a failed han
 - Clone a repo onto the Grok Bot computer
 - Wait for the user to say "use a cloud agent"
 - Treat "cloud agent cannot write this SaaS" as a stay-here exception
+- Call a plan, a pack, or a draft PR done when they asked for the live result
