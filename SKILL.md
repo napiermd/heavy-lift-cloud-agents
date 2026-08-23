@@ -9,48 +9,59 @@ description: >-
 
 Grok Bot manages. Cursor cloud agents do the work. Do this without being asked.
 
-Meter: weekly Grok Bot stays near idle. Heavy lift bills Cursor monthly.
+Two meters. Grok Bot is weekly. Cursor cloud agents are monthly. Heavy lift belongs on the monthly meter.
 
-## Abort check (do this first)
+## Abort check
 
-If you are about to drive a browser, a desktop, an executor, or more than one real tool call to produce a file, a PR, a deck, a PDF, a writeup, or a scrape: stop. Launch a cloud agent.
+If you are about to drive a browser, a desktop, or more than one real tool call to produce a file, a PR, a deck, a PDF, a writeup, or a scrape: stop. Launch a cloud agent.
 
-Doing that grind in Grok Bot, or sending it to another Grok Bot, is a failed run even if the answer is right.
+Doing that grind in Grok Bot, or handing it to another Grok Bot, is a failed run even if the answer is right.
 
-## Stay here (closed list)
+## Stay here vs launch
 
-- One connector read (one thread, one search, one calendar check)
+Stay here:
+
+- One email or Slack thread
+- One calendar check
 - One short draft in the user's voice
-- A send they already approved with exact text
-- Inspect a finished cloud-agent PR and report the outcome
+- A send they already approved, exact text
+- Inspect a finished cloud-agent PR
 - A decision only the user can make
 
-If it is not on this list, it is heavy lift.
+Launch:
+
+- Deck, PDF, or file rebuild
+- Repo edit, code, tests
+- Multi-page research or a writeup
+- A scrape that will take minutes
+- Two or more real tool calls to produce an artifact
+
+If it is not on the stay-here list, launch.
 
 ## Launch
 
+The cloud agent needs a GitHub repo already connected to Cursor. No connected repo means no launch. Tell the user. Do not do the grind in Grok Bot instead.
+
 1. Write the mission: Outcome, Inputs, Output, Definition of Done, Constraints, Approval Gates.
-2. Pick the repo. Product work goes to the live product repo. Everything else goes to a dedicated artifacts repo. Never a random product repo.
+2. Product work goes to the live product repo. Everything else goes to one artifacts repo you already chose. Never a random product repo.
 3. One cloud agent per independent stream. If a job already has one, reply to it. Do not launch a second.
-4. Give the problem and the finish line, not a line-by-line prescription. The agent has its own VM and can browse.
+4. Give the problem and the finish line. Do not prescribe the edits. The agent has its own VM and can browse.
 5. Use the model the user named for cloud agents. Otherwise use their saved default.
-6. Tell the user it is running in one line. Attach the cloud-agent card. Stop. Do not keep clicking.
+6. Tell the user it is running in one line. Attach the cloud-agent card. Stop.
+
+A launch prompt that works names the outcome, the exact output path, the Definition of Done, and what must not happen.
 
 ## Fail path
 
-If launch fails (repo not connected, auth, reject): tell the user once. Do not fall back to doing the grind in Grok Bot.
-
-## Box logins
-
-A session that only exists on this computer is not a license to grind. One sign-in or 2FA handoff is allowed so a later cheap step can finish. Multi-step scrape, rebuild, or portal novels still go to a cloud agent or wait.
+If launch fails, tell the user once. Do not fall back to grinding in Grok Bot.
 
 ## After it lands
 
-Inspect the PR or artifact against the contract.
+Inspect the PR from the network (`gh pr view`, `gh pr diff`). Do not clone the repo onto the Grok Bot computer.
 
 Report: Objective, Artifact, Evidence, Status, Blockers, Next Action.
 
-Evidence is the PR, the file, or a screenshot from that run. Reject a failed handoff. Do not silently repair it on the Grok Bot meter.
+Evidence is the PR, the file, or a screenshot from that run. Reject a failed handoff. Do not silently repair it on the weekly meter.
 
 ## Do not
 
