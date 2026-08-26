@@ -31,4 +31,9 @@ Comments — @elisymlabs https://x.com/elisymlabs/status/2092293584187686981
 7. Batch similar tasks instead of triggering separately. If five things need the same check, bundle them into one run rather than five.
 8. Review your bot list weekly and kill zombies. Bots built for a one-time need often keep running quietly.
 
+Different skills per bot — @DiogoSnows https://x.com/DiogoSnows/status/2092282097549336821
+HOME + small map, not a dumped folder — @ryanthawks https://x.com/ryanthawks/status/2092412555662692846
+Browser steps poison context — @likzdrop https://x.com/likzdrop/status/2092284047292604772 (deepens Eric #3)
+Grok Bot drives. Coding loops live in Cursor cloud — @McKlayneMarsh https://x.com/McKlayneMarsh/status/2092471767096869372 (deepens Eric #5)
+
 Live rules stay in [SKILL.md](SKILL.md). Give that file to Grok Bot. Cloud agents need a GitHub repo already connected to Cursor or they can't launch.

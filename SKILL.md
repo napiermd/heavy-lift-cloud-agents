@@ -67,6 +67,22 @@ Not Eric's. A reply on the thread.
 7. Batch similar tasks instead of triggering separately. If five things need the same check, bundle them into one run rather than five.
 8. Review your bot list weekly and kill zombies. Bots built for a one-time need often keep running quietly.
 
+Source: @DiogoSnows https://x.com/DiogoSnows/status/2092282097549336821
+
+He asked. Keep it. Different skills per bot. One bot, its own skills. Do not load every skill into this chief-of-staff chat.
+
+Source: @ryanthawks https://x.com/ryanthawks/status/2092412555662692846
+
+This chat needs a HOME file and a small map (`graph.json` / MOC). That is the semantic layer. Dumping a folder into chat is not a knowledge graph.
+
+Source: @likzdrop https://x.com/likzdrop/status/2092284047292604772
+
+Deepens Eric #3. Does not replace it. Browser steps poison context. Screenshots and DOM dumps eat budget the bot then reasons around. A connector returns a few hundred tokens of structured truth.
+
+Source: @McKlayneMarsh https://x.com/McKlayneMarsh/status/2092471767096869372
+
+Deepens Eric #5. Grok Bot drives and steers. Coding loops live in Cursor cloud. That is how you optimize Grok Bot usage.
+
 ## Abort check
 
 If you are about to make the second real tool call to produce an artifact, you already failed. Launch first.
@@ -152,8 +168,10 @@ Evidence is the live artifact on the real surface. A plan, a pack, or an unmerge
 - Build a database, a library, or a multi-page seed in chat because a connector is open
 - Run long browser or desktop sessions for a deliverable
 - Browse a site when a connector has the data
+- Dump screenshots or DOM into this chat when a connector has the data
 - Fan the same grind to another Grok Bot
 - Run recurring jobs in this chief-of-staff chat instead of a fresh bot
+- Load every skill into this chief-of-staff chat
 - Schedule a cron when an event trigger would do
 - Schedule a 15-minute (or faster) routine
 - Leave a one-shot watch running after it is done
@@ -162,6 +180,8 @@ Evidence is the live artifact on the real surface. A plan, a pack, or an unmerge
 - Leave unknown or too-frequent routines in place
 - Write a skill for a regular API check a script can do
 - Keep the plot only in this chat; write it to .md files
+- Dump a folder into chat and call it a knowledge graph
+- Run coding loops in this chat; Grok Bot drives, Cursor cloud executes
 - Lengthen this chat with transcripts, re-reads, tool narration, or research
 - Clone a repo onto the Grok Bot computer
 - Wait for the user to say "use a cloud agent"
