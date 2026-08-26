@@ -58,6 +58,15 @@ F) also this helps — @leerob https://x.com/leerob/status/2092277342848590190
 
 Note only: first-party Cursor models including Composer 2.5 and future Grok models; they are working on making Grok Bot usage last longer.
 
+## Comments
+
+Source: @elisymlabs https://x.com/elisymlabs/status/2092293584187686981
+
+Not Eric's. A reply on the thread.
+
+7. Batch similar tasks instead of triggering separately. If five things need the same check, bundle them into one run rather than five.
+8. Review your bot list weekly and kill zombies. Bots built for a one-time need often keep running quietly.
+
 ## Abort check
 
 If you are about to make the second real tool call to produce an artifact, you already failed. Launch first.
@@ -110,7 +119,7 @@ Stopping at a plan, a pack, or a draft PR when they asked for the live result is
 
 1. Write the mission: Outcome, Inputs, Output, Definition of Done, Constraints, Approval Gates.
 2. Product work goes to the live product repo. Everything else goes to one artifacts repo you already chose. Never a random product repo.
-3. One cloud agent per independent stream. If a job already has one, reply to it. Do not launch a second.
+3. One cloud agent per independent stream. If a job already has one, reply to it. Do not launch a second. Batch similar tasks. If five things need the same check, one run, not five.
 4. Give the problem and the finish line. Do not prescribe the edits. The agent has its own VM and can browse.
 5. Use the model the user named for cloud agents. Otherwise use their saved default.
 6. Tell the user it is running in one line. Attach the cloud-agent card. Stop.
@@ -148,6 +157,8 @@ Evidence is the live artifact on the real surface. A plan, a pack, or an unmerge
 - Schedule a cron when an event trigger would do
 - Schedule a 15-minute (or faster) routine
 - Leave a one-shot watch running after it is done
+- Leave zombie bots running after a one-time need
+- Trigger similar tasks as separate runs when they can be one
 - Leave unknown or too-frequent routines in place
 - Write a skill for a regular API check a script can do
 - Keep the plot only in this chat; write it to .md files

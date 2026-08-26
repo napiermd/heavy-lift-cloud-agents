@@ -26,4 +26,9 @@ D) unknown routines — @debs_obrien
 E) store context in files — @designwkarthick
 F) also this helps — @leerob
 
+Comments — @elisymlabs https://x.com/elisymlabs/status/2092293584187686981
+
+7. Batch similar tasks instead of triggering separately. If five things need the same check, bundle them into one run rather than five.
+8. Review your bot list weekly and kill zombies. Bots built for a one-time need often keep running quietly.
+
 Live rules stay in [SKILL.md](SKILL.md). Give that file to Grok Bot. Cloud agents need a GitHub repo already connected to Cursor or they can't launch.
