@@ -8,4 +8,6 @@ Stay in Grok Bot for one cheap read, one short draft, one calendar check, one se
 
 Launch if you need a deck, a PDF, a repo change, tests, a scrape, research, a writeup, a database, or a second tool call to produce something. If it isn't one of those small jobs, launch. Don't wait for me to say it.
 
+This is the front door. Eric's six plus the posts he linked live in [SKILL.md](SKILL.md).
+
 The skill is [SKILL.md](SKILL.md). Give that file to Grok Bot. Cloud agents need a GitHub repo already connected to Cursor or they can't launch.
