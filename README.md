@@ -8,6 +8,22 @@ Stay in Grok Bot for one cheap read, one short draft, one calendar check, one se
 
 Launch if you need a deck, a PDF, a repo change, tests, a scrape, research, a writeup, a database, or a second tool call to produce something. If it isn't one of those small jobs, launch. Don't wait for me to say it.
 
-This is the front door. Eric's six plus the posts he linked live in [SKILL.md](SKILL.md).
+Eric's six (https://x.com/ericzakariasson/status/2092281851822113131):
 
-The skill is [SKILL.md](SKILL.md). Give that file to Grok Bot. Cloud agents need a GitHub repo already connected to Cursor or they can't launch.
+1. Event trigger over cron
+2. Notify when stalled
+3. Connectors > browser
+4. Tight skills that still steer
+5. No coding in Grok Bot chat — cloud agent / grok build CLI
+6. Delete one-shot watches
+
+What he linked:
+
+A) schedules + long chats — @poteto
+B) skill path in the bot description — @poteto (path: https://github.com/napiermd/heavy-lift-cloud-agents)
+C) deterministic scripts — @migidoes
+D) unknown routines — @debs_obrien
+E) store context in files — @designwkarthick
+F) also this helps — @leerob
+
+Live rules stay in [SKILL.md](SKILL.md). Give that file to Grok Bot. Cloud agents need a GitHub repo already connected to Cursor or they can't launch.
