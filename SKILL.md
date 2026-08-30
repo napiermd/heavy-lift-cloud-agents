@@ -1,17 +1,22 @@
 ---
 name: Heavy lift cloud agents
 description: >-
-  Use this on every job before you start grinding. If the work is more than one
-  cheap read or an approved send, launch a Cursor cloud agent. Do not wait to
-  be told.
+  Use this on every job before you start grinding. Three meters: Grok Bot
+  weekly (this chat, stay-here only), Cursor CloudAgent monthly Ultra (PRs),
+  Grok Build on this computer (grok -p, no PR). If it is not stay-here, leave
+  this chat. Do not wait to be told.
 ---
 # Heavy lift cloud agents
 
-Grok Bot manages. Cursor cloud agents do the work. Do this without being asked.
+Grok Bot manages. CloudAgent and Grok Build do the work. Do this without being asked.
 
 This skill is the front door. Hit it before you burn weekly tokens.
 
-Two meters. Grok Bot is weekly. Cursor cloud agents are monthly. Heavy lift belongs on the monthly meter.
+Three meters. Locked 2026-08-30.
+
+1. This Grok Bot chat = Grok Bot weekly. Management only. Stay-here is unchanged: one cheap read, one short draft, one calendar check, one send already approved with exact text, inspect then one merge of a finished cloud-agent PR they already asked for, or a decision only Andrew can make. Each is one call.
+2. Cursor CloudAgent = Cursor monthly Ultra. Product repo edits, code, tests, decks/PDFs/files that land as a PR. Product work goes to the live product repo. Everything else goes to napiermd/gstack-artifacts-andrewbot. Engineer watches PRs. Model grok-4.6 only when Andrew named the BStarr119 path.
+3. Grok Build = grok.com account, `grok` CLI on the Grok Bot computer (installed 2026-08-30, grok 1.0.13, signed in as andrew.b.napier@gmail.com). Token-heavy grind that needs that computer's files or logins and does NOT need a GitHub/Origin PR. Headless: grok -p. Does not open a PR. Does not burn Grok Bot weekly.
 
 This chat is the chief of staff. Weekly tokens burn here.
 
@@ -113,7 +118,7 @@ Launch:
 - A scrape that will take minutes
 - Two or more real tool calls to produce an artifact
 
-If it is not on the stay-here list, launch. A second tool call is launch.
+If it is not on the stay-here list, leave this chat. Need a branch/PR or a file in a connected repo → Cursor CloudAgent. Need this computer and it is token-heavy with no PR → Grok Build (grok -p). One cheap inspect → stay here or a keep-list worker. Never send heavy lift to another Grok Bot worker (Engineer, Ops, Sales Dog, Brand, Shopper, executor). That still bills weekly. A second tool call is leave this chat.
 
 These are not stay-here exceptions. Launch anyway:
 
@@ -127,30 +132,32 @@ Put the artifact in a connected repo. If the write surface is unreachable, repor
 
 ## Launch
 
-The cloud agent needs a GitHub repo already connected to Cursor. No connected repo means no launch. Tell the user. Do not do the grind in Grok Bot instead.
+Cursor CloudAgent needs a GitHub repo already connected to Cursor. No connected repo means no CloudAgent. Tell the user. Do not do the grind in Grok Bot instead. Do not clone the repo onto the Grok Bot computer to dodge that.
+
+Grok Build is the no-PR local path. Token-heavy grind that needs this computer's files or logins and does not need a GitHub/Origin PR: `grok -p`. It does not open a PR. It does not burn Grok Bot weekly. It is not a fallback for CloudAgent work.
 
 Launch is for execution. The Definition of Done is the live artifact on the real surface: a merged skill, a loaded library, a shipped file. A plan, a handoff note, or an unmerged draft is not done.
 
 Stopping at a plan, a pack, or a draft PR when they asked for the live result is a failed run.
 
 1. Write the mission: Outcome, Inputs, Output, Definition of Done, Constraints, Approval Gates.
-2. Product work goes to the live product repo. Everything else goes to one artifacts repo you already chose. Never a random product repo.
+2. Product work goes to the live product repo. Everything else goes to napiermd/gstack-artifacts-andrewbot. Never a random product repo.
 3. One cloud agent per independent stream. If a job already has one, reply to it. Do not launch a second. Batch similar tasks. If five things need the same check, one run, not five.
 4. Give the problem and the finish line. Do not prescribe the edits. The agent has its own VM and can browse.
-5. Use the model the user named for cloud agents. Otherwise use their saved default.
-6. Tell the user it is running in one line. Attach the cloud-agent card. Stop.
+5. Use the model the user named for cloud agents. grok-4.6 only when Andrew named the BStarr119 path. Otherwise use their saved default.
+6. Tell the user it is running in one line. Attach the cloud-agent card. Stop. Engineer watches PRs.
 
 A launch prompt that works names the outcome, the exact output path, the Definition of Done, and what must not happen.
 
 ## Fail path
 
-If launch fails, is blocked, cannot finish the last click, or you cannot make further progress, tell the user once. Do not grind the job in Grok Bot. An incomplete launch is not permission to do the work here.
+If launch fails, is blocked, cannot finish the last click, or you cannot make further progress, tell the user once. Do not grind the job in Grok Bot. An incomplete launch is not permission to do the work here. That includes an incomplete CloudAgent PR and an incomplete Grok Build (`grok -p`) run.
 
-If the cloud agent could not write the destination, report that blocker once. It is not planning complete.
+If the cloud agent could not write the destination, report that blocker once. It is not planning complete. Grok Build is the no-PR local path, not a fallback for CloudAgent work. Do not clone the repo onto the Grok Bot computer.
 
 ## After it lands
 
-Inspect the PR from the network (`gh pr view`, `gh pr diff`). Do not clone the repo onto the Grok Bot computer.
+Inspect the PR from the network (`gh pr view`, `gh pr diff`). Do not clone the repo onto the Grok Bot computer. CloudAgent work stays on the CloudAgent. Grok Build (`grok -p`) is the no-PR local path; do not turn it into a clone-and-PR job on this computer.
 
 Then close the loop they already asked for. If they said patch, fix, merge, or make it live: merge or apply. Do not leave a draft PR and call it done.
 
