@@ -16,7 +16,7 @@ Three meters. Locked 2026-08-30.
 
 1. This Grok Bot chat = Grok Bot weekly. Management only. Stay-here is unchanged: one cheap read, one short draft, one calendar check, one send already approved with exact text, inspect then one merge of a finished cloud-agent PR they already asked for, or a decision only Andrew can make. Each is one call.
 2. Cursor CloudAgent = Cursor monthly Ultra. Product repo edits, code, tests, decks/PDFs/files that land as a PR. Product work goes to the live product repo. Everything else goes to napiermd/gstack-artifacts-andrewbot. Engineer watches PRs. Model grok-4.6 only when Andrew named the BStarr119 path.
-3. Grok Build = grok.com account, `grok` CLI on the Grok Bot computer (installed 2026-08-30, grok 1.0.13, signed in as andrew.b.napier@gmail.com). Token-heavy grind that needs that computer's files or logins and does NOT need a GitHub/Origin PR. Headless: grok -p. Does not open a PR. Does not burn Grok Bot weekly.
+3. Grok Build = grok.com account, `grok` CLI on the Grok Bot computer. Token-heavy grind that needs that computer's files or logins and does NOT need a GitHub/Origin PR. Headless: grok -p. Does not open a PR. Does not burn Grok Bot weekly.
 
 This chat is the chief of staff. Weekly tokens burn here.
 

@@ -1,12 +1,12 @@
 # Heavy lift cloud agents
 
-This is a Grok Bot skill. I use Grok Bot as the chief of staff. Cursor cloud agents do the work.
+This is a Grok Bot skill. I use Grok Bot as the chief of staff. CloudAgent and Grok Build do the work.
 
-Two meters. Grok Bot is weekly. Cloud agents are monthly. Heavy lift belongs on the monthly meter. Grind a file rebuild or a scrape in the Grok Bot chat and you burn the weekly meter.
+Three meters. Grok Bot weekly is this chat, management only. Cursor CloudAgent is monthly Ultra — product/repo work that lands as a PR. Grok Build is grok.com account, grok CLI on the Grok Bot computer, headless grok -p, no PR, does not burn weekly.
 
 Stay in Grok Bot for one cheap read, one short draft, one calendar check, one send I already approved, or a decision only I can make. Looking at a finished cloud-agent PR and doing the merge I already asked for counts too. Each of those is one call.
 
-Launch if you need a deck, a PDF, a repo change, tests, a scrape, research, a writeup, a database, or a second tool call to produce something. If it isn't one of those small jobs, launch. Don't wait for me to say it.
+Launch if you need a deck, a PDF, a repo change, tests, a scrape, research, a writeup, a database, or a second tool call to produce something. Branch/PR or a file in a connected repo goes to Cursor CloudAgent. Token-heavy work that needs this computer and no PR goes to Grok Build (grok -p). If it isn't one of those small stay-here jobs, leave this chat. Don't wait for me to say it.
 
 Eric's six (https://x.com/ericzakariasson/status/2092281851822113131):
 
@@ -70,4 +70,4 @@ Grok Bot drives. Coding loops live in Cursor cloud — @McKlayneMarsh https://x.
 
 Deepens Eric #5. Grok Bot drives and steers. Coding loops live in Cursor cloud. That is how you optimize Grok Bot usage.
 
-Live rules stay in [SKILL.md](SKILL.md). Give that file to Grok Bot. Cloud agents need a GitHub repo already connected to Cursor or they can't launch.
+Live rules stay in [SKILL.md](SKILL.md). Give that file to Grok Bot. CloudAgent needs a GitHub repo already connected to Cursor. Grok Build is the no-PR local path: grok -p.
