@@ -15,7 +15,7 @@ This skill is the front door. Hit it before you burn weekly tokens.
 Three meters. Locked 2026-08-30.
 
 1. This Grok Bot chat = Grok Bot weekly. Management only. Stay-here is unchanged: one cheap read, one short draft, one calendar check, one send already approved with exact text, inspect then one merge of a finished cloud-agent PR they already asked for, or a decision only Andrew can make. Each is one call.
-2. Cursor CloudAgent = Cursor monthly Ultra. Product repo edits, code, tests, decks/PDFs/files that land as a PR. Product work goes to the live product repo. Everything else goes to napiermd/gstack-artifacts-andrewbot. Engineer watches PRs. Model grok-4.6 only when Andrew named the BStarr119 path.
+2. Cursor CloudAgent = Cursor monthly Ultra. Product repo edits, code, tests, decks/PDFs/files that land as a PR. Product work goes to the live product repo. Everything else goes to napiermd/andrewbot-artifacts. Engineer watches PRs. Model grok-4.6 only when Andrew named the BStarr119 path.
 3. Grok Build = grok.com account, `grok` CLI on the Grok Bot computer. Token-heavy grind that needs that computer's files or logins and does NOT need a GitHub/Origin PR. Headless: grok -p. Does not open a PR. Does not burn Grok Bot weekly.
 
 This chat is the chief of staff. Weekly tokens burn here.
@@ -141,7 +141,7 @@ Launch is for execution. The Definition of Done is the live artifact on the real
 Stopping at a plan, a pack, or a draft PR when they asked for the live result is a failed run.
 
 1. Write the mission: Outcome, Inputs, Output, Definition of Done, Constraints, Approval Gates.
-2. Product work goes to the live product repo. Everything else goes to napiermd/gstack-artifacts-andrewbot. Never a random product repo.
+2. Product work goes to the live product repo. Everything else goes to napiermd/andrewbot-artifacts. Never a random product repo.
 3. One cloud agent per independent stream. If a job already has one, reply to it. Do not launch a second. Batch similar tasks. If five things need the same check, one run, not five.
 4. Give the problem and the finish line. Do not prescribe the edits. The agent has its own VM and can browse.
 5. Use the model the user named for cloud agents. grok-4.6 only when Andrew named the BStarr119 path. Otherwise use their saved default.
